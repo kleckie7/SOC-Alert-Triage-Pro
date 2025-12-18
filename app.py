@@ -109,4 +109,67 @@ model, le_severity, le_source = load_model()
 # Load alerts
 @st.cache_data
 def load_alerts():
-    with open('data/mock_alerts.json',
+    with open('data/mock_alerts.json', 'r') as f:
+        return json.load(f)
+
+alerts = load_alerts()
+df = pd.DataFrame(alerts)
+
+# Predict priority scores
+df['severity_encoded'] = le_severity.transform(df['severity'])
+df['source_encoded'] = le_source.transform(df['source'])
+X = df[['severity_encoded', 'source_encoded', 'confidence']]
+df['priority_score'] = model.predict_proba(X)[:, 1]
+
+# Sidebar controls
+st.sidebar.header("Triage Controls")
+priority_threshold = st.sidebar.slider("Minimum Priority Score", 0.0, 1.0, 0.6, 0.05)
+show_all = st.sidebar.checkbox("Show All Alerts (Unfiltered)", value=False)
+
+if show_all:
+    filtered_df = df.sort_values('priority_score', ascending=False)
+else:
+    filtered_df = df[df['priority_score'] >= priority_threshold].sort_values('priority_score', ascending=False)
+
+# Main display
+st.write(f"**{len(filtered_df)} Prioritized Alerts** (out of {len(df)} total)")
+columns_to_show = ['id', 'timestamp', 'severity', 'description', 'entity', 'source', 'confidence', 'priority_score']
+st.dataframe(
+    filtered_df[columns_to_show].style.format({'priority_score': '{:.2f}', 'confidence': '{:.2f}'}),
+    use_container_width=True
+)
+
+# Chart
+fig = px.bar(
+    filtered_df.head(20),
+    x='id',
+    y='priority_score',
+    color='severity',
+    title="Top 20 Alert Priority Scores",
+    hover_data=['description', 'source']
+)
+st.plotly_chart(fig, use_container_width=True)
+
+# Alert Details
+st.header("Alert Details & Actions")
+selected_id = st.selectbox("Select an Alert", filtered_df['id'])
+selected = filtered_df[filtered_df['id'] == selected_id].iloc[0]
+
+st.write("**Description:**", selected['description'])
+st.write("**Entity:**", selected['entity'])
+st.write("**Source:**", selected['source'])
+st.write("**AI Priority Score:**", f"{selected['priority_score']:.2f}")
+
+if st.button("Enrich with External Threat Intel (Mock)"):
+    st.info("Enriched: No known campaigns (Production: Add real API)")
+
+if st.button("Submit Analyst Feedback"):
+    st.success("Feedback recorded! (Production: Use for model retraining)")
+
+# Export
+st.sidebar.download_button(
+    "Export Prioritized Alerts (CSV)",
+    filtered_df.to_csv(index=False).encode('utf-8'),
+    "prioritized_soc_alerts.csv",
+    "text/csv"
+)
