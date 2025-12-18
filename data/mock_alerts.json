@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "alert-0001",
+    "timestamp": "2025-12-17T15:08:21.163395",
+    "severity": "Medium",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-38",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.67,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0002",
+    "timestamp": "2025-12-18T04:40:21.163419",
+    "severity": "Critical",
+    "description": "Benign software update (known false positive)",
+    "entity": "device-20",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.49,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0003",
+    "timestamp": "2025-12-17T14:09:21.163427",
+    "severity": "High",
+    "description": "Potential malware execution detected",
+    "entity": "device-26",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.73,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0004",
+    "timestamp": "2025-12-17T09:22:21.163433",
+    "severity": "High",
+    "description": "Privileged account modification",
+    "entity": "device-25",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.61,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0005",
+    "timestamp": "2025-12-17T13:58:21.163438",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "device-16",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.84,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0006",
+    "timestamp": "2025-12-17T09:37:21.163442",
+    "severity": "Critical",
+    "description": "Benign software update (known false positive)",
+    "entity": "device-41",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.61,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0007",
+    "timestamp": "2025-12-17T19:08:21.163447",
+    "severity": "Low",
+    "description": "Lateral movement indicators",
+    "entity": "device-21",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.41,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0008",
+    "timestamp": "2025-12-18T01:31:21.163451",
+    "severity": "High",
+    "description": "Privileged account modification",
+    "entity": "user890@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.72,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0009",
+    "timestamp": "2025-12-17T08:30:21.163455",
+    "severity": "Medium",
+    "description": "Potential malware execution detected",
+    "entity": "user509@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.31,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0010",
+    "timestamp": "2025-12-18T01:15:21.163459",
+    "severity": "Low",
+    "description": "Potential malware execution detected",
+    "entity": "device-13",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.93,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0011",
+    "timestamp": "2025-12-18T00:41:21.163463",
+    "severity": "High",
+    "description": "Benign software update (known false positive)",
+    "entity": "user177@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.25,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0012",
+    "timestamp": "2025-12-18T05:27:21.163468",
+    "severity": "High",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user177@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.74,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0013",
+    "timestamp": "2025-12-18T06:54:21.163472",
+    "severity": "Medium",
+    "description": "Potential malware execution detected",
+    "entity": "user155@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.72,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0014",
+    "timestamp": "2025-12-17T10:14:21.163477",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "device-9",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.89,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0015",
+    "timestamp": "2025-12-18T06:16:21.163481",
+    "severity": "High",
+    "description": "Brute force attempt on account",
+    "entity": "user435@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.24,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0016",
+    "timestamp": "2025-12-18T03:15:21.163487",
+    "severity": "Medium",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "user922@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.55,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0017",
+    "timestamp": "2025-12-17T16:38:21.163492",
+    "severity": "Medium",
+    "description": "Benign software update (known false positive)",
+    "entity": "device-21",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.81,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0018",
+    "timestamp": "2025-12-17T18:36:21.163496",
+    "severity": "Critical",
+    "description": "Potential malware execution detected",
+    "entity": "user905@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.76,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0019",
+    "timestamp": "2025-12-18T06:49:21.163501",
+    "severity": "High",
+    "description": "Brute force attempt on account",
+    "entity": "device-32",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.28,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0020",
+    "timestamp": "2025-12-17T14:44:21.163505",
+    "severity": "Critical",
+    "description": "Benign software update (known false positive)",
+    "entity": "user948@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.9,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0021",
+    "timestamp": "2025-12-17T21:06:21.163509",
+    "severity": "Critical",
+    "description": "Benign software update (known false positive)",
+    "entity": "device-22",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.49,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0022",
+    "timestamp": "2025-12-18T06:11:21.163513",
+    "severity": "High",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "user698@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.26,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0023",
+    "timestamp": "2025-12-17T13:13:21.163517",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "user291@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.88,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0024",
+    "timestamp": "2025-12-17T09:59:21.163521",
+    "severity": "Low",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user179@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.52,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0025",
+    "timestamp": "2025-12-17T08:55:21.163527",
+    "severity": "High",
+    "description": "Brute force attempt on account",
+    "entity": "user994@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.26,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0026",
+    "timestamp": "2025-12-17T13:54:21.163532",
+    "severity": "Low",
+    "description": "Brute force attempt on account",
+    "entity": "device-20",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.94,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0027",
+    "timestamp": "2025-12-18T04:09:21.163536",
+    "severity": "Medium",
+    "description": "Lateral movement indicators",
+    "entity": "user170@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.68,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0028",
+    "timestamp": "2025-12-18T02:36:21.163541",
+    "severity": "High",
+    "description": "Potential malware execution detected",
+    "entity": "user907@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.25,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0029",
+    "timestamp": "2025-12-17T23:09:21.163545",
+    "severity": "Medium",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-42",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.74,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0030",
+    "timestamp": "2025-12-17T22:36:21.163549",
+    "severity": "Medium",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user854@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.78,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0031",
+    "timestamp": "2025-12-17T09:04:21.163554",
+    "severity": "Low",
+    "description": "Potential malware execution detected",
+    "entity": "user369@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.56,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0032",
+    "timestamp": "2025-12-18T03:07:21.163558",
+    "severity": "Low",
+    "description": "Lateral movement indicators",
+    "entity": "user436@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.55,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0033",
+    "timestamp": "2025-12-17T17:47:21.163562",
+    "severity": "Low",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "device-48",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.33,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0034",
+    "timestamp": "2025-12-17T14:42:21.163567",
+    "severity": "Critical",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "user359@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.33,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0035",
+    "timestamp": "2025-12-17T07:32:21.163571",
+    "severity": "Critical",
+    "description": "Benign software update (known false positive)",
+    "entity": "user563@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.39,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0036",
+    "timestamp": "2025-12-17T18:52:21.163575",
+    "severity": "Medium",
+    "description": "Privileged account modification",
+    "entity": "device-28",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.45,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0037",
+    "timestamp": "2025-12-17T12:32:21.163579",
+    "severity": "Low",
+    "description": "Benign software update (known false positive)",
+    "entity": "user463@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.52,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0038",
+    "timestamp": "2025-12-17T13:46:21.163584",
+    "severity": "Low",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "user907@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.95,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0039",
+    "timestamp": "2025-12-17T07:10:21.163588",
+    "severity": "Medium",
+    "description": "Lateral movement indicators",
+    "entity": "device-41",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.44,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0040",
+    "timestamp": "2025-12-18T03:05:21.163592",
+    "severity": "Medium",
+    "description": "Benign software update (known false positive)",
+    "entity": "user169@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.5,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0041",
+    "timestamp": "2025-12-17T18:06:21.163596",
+    "severity": "Critical",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "user532@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.97,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0042",
+    "timestamp": "2025-12-17T18:11:21.163600",
+    "severity": "Low",
+    "description": "Privileged account modification",
+    "entity": "user664@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.36,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0043",
+    "timestamp": "2025-12-17T11:42:21.163604",
+    "severity": "Low",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-12",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.36,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0044",
+    "timestamp": "2025-12-17T20:53:21.163609",
+    "severity": "Low",
+    "description": "Lateral movement indicators",
+    "entity": "user236@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.85,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0045",
+    "timestamp": "2025-12-18T02:35:21.163614",
+    "severity": "Low",
+    "description": "Benign software update (known false positive)",
+    "entity": "user740@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.66,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0046",
+    "timestamp": "2025-12-17T07:29:21.163618",
+    "severity": "Medium",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "user988@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.81,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0047",
+    "timestamp": "2025-12-17T19:49:21.163622",
+    "severity": "Medium",
+    "description": "Benign software update (known false positive)",
+    "entity": "user678@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.34,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0048",
+    "timestamp": "2025-12-18T00:43:21.163626",
+    "severity": "Low",
+    "description": "Benign software update (known false positive)",
+    "entity": "user400@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.68,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0049",
+    "timestamp": "2025-12-17T17:34:21.163631",
+    "severity": "High",
+    "description": "Potential malware execution detected",
+    "entity": "device-26",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.44,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0050",
+    "timestamp": "2025-12-18T00:07:21.163635",
+    "severity": "High",
+    "description": "Potential malware execution detected",
+    "entity": "device-7",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.95,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0051",
+    "timestamp": "2025-12-17T18:34:21.163639",
+    "severity": "High",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user308@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.92,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0052",
+    "timestamp": "2025-12-17T20:23:21.163644",
+    "severity": "Medium",
+    "description": "Potential malware execution detected",
+    "entity": "user141@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.9,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0053",
+    "timestamp": "2025-12-17T22:59:21.163648",
+    "severity": "High",
+    "description": "Benign software update (known false positive)",
+    "entity": "device-15",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.39,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0054",
+    "timestamp": "2025-12-17T18:24:21.163652",
+    "severity": "Medium",
+    "description": "Lateral movement indicators",
+    "entity": "user965@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.21,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0055",
+    "timestamp": "2025-12-17T09:45:21.163656",
+    "severity": "High",
+    "description": "Privileged account modification",
+    "entity": "device-28",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.81,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0056",
+    "timestamp": "2025-12-17T13:35:21.163661",
+    "severity": "Low",
+    "description": "Brute force attempt on account",
+    "entity": "user615@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.8,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0057",
+    "timestamp": "2025-12-17T16:18:21.163665",
+    "severity": "Medium",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "device-31",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.75,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0058",
+    "timestamp": "2025-12-17T10:27:21.163669",
+    "severity": "Medium",
+    "description": "Potential malware execution detected",
+    "entity": "user494@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.93,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0059",
+    "timestamp": "2025-12-17T21:27:21.163674",
+    "severity": "Critical",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user723@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.81,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0060",
+    "timestamp": "2025-12-18T00:35:21.163678",
+    "severity": "Medium",
+    "description": "Privileged account modification",
+    "entity": "device-2",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.96,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0061",
+    "timestamp": "2025-12-17T19:44:21.163682",
+    "severity": "Critical",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "device-31",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.89,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0062",
+    "timestamp": "2025-12-17T21:01:21.163686",
+    "severity": "Low",
+    "description": "Brute force attempt on account",
+    "entity": "user634@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.51,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0063",
+    "timestamp": "2025-12-17T07:04:21.163691",
+    "severity": "Low",
+    "description": "Brute force attempt on account",
+    "entity": "device-1",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.89,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0064",
+    "timestamp": "2025-12-17T15:03:21.163695",
+    "severity": "Medium",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "device-44",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.53,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0065",
+    "timestamp": "2025-12-18T04:55:21.163701",
+    "severity": "Medium",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "device-23",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.84,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0066",
+    "timestamp": "2025-12-17T12:51:21.163706",
+    "severity": "High",
+    "description": "Lateral movement indicators",
+    "entity": "user329@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.27,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0067",
+    "timestamp": "2025-12-17T15:48:21.163710",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "user963@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.58,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0068",
+    "timestamp": "2025-12-17T13:59:21.163717",
+    "severity": "Medium",
+    "description": "Benign software update (known false positive)",
+    "entity": "user497@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.86,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0069",
+    "timestamp": "2025-12-17T15:49:21.163721",
+    "severity": "Low",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-33",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.75,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0070",
+    "timestamp": "2025-12-17T10:39:21.163726",
+    "severity": "High",
+    "description": "Brute force attempt on account",
+    "entity": "device-12",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.55,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0071",
+    "timestamp": "2025-12-17T22:34:21.163730",
+    "severity": "High",
+    "description": "Privileged account modification",
+    "entity": "user232@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.8,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0072",
+    "timestamp": "2025-12-17T18:15:21.163734",
+    "severity": "Critical",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "user447@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.33,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0073",
+    "timestamp": "2025-12-17T11:33:21.163739",
+    "severity": "Low",
+    "description": "Privileged account modification",
+    "entity": "user713@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.33,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0074",
+    "timestamp": "2025-12-18T06:18:21.163743",
+    "severity": "Medium",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user363@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.62,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0075",
+    "timestamp": "2025-12-18T01:58:21.163747",
+    "severity": "Medium",
+    "description": "Lateral movement indicators",
+    "entity": "user920@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.35,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0076",
+    "timestamp": "2025-12-18T06:54:21.163751",
+    "severity": "Medium",
+    "description": "Lateral movement indicators",
+    "entity": "user295@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.23,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0077",
+    "timestamp": "2025-12-17T16:18:21.163756",
+    "severity": "Critical",
+    "description": "Potential malware execution detected",
+    "entity": "device-15",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.21,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0078",
+    "timestamp": "2025-12-18T03:10:21.163761",
+    "severity": "Low",
+    "description": "Privileged account modification",
+    "entity": "device-49",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.79,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0079",
+    "timestamp": "2025-12-18T03:12:21.163765",
+    "severity": "Medium",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "device-5",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.54,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0080",
+    "timestamp": "2025-12-17T21:49:21.163769",
+    "severity": "Low",
+    "description": "Benign software update (known false positive)",
+    "entity": "user359@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.72,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0081",
+    "timestamp": "2025-12-17T11:00:21.163774",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "user168@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.26,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0082",
+    "timestamp": "2025-12-17T11:31:21.163778",
+    "severity": "Critical",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-3",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.66,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0083",
+    "timestamp": "2025-12-17T08:58:21.163783",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "user100@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.21,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0084",
+    "timestamp": "2025-12-18T03:17:21.163787",
+    "severity": "Critical",
+    "description": "Lateral movement indicators",
+    "entity": "device-2",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.86,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0085",
+    "timestamp": "2025-12-18T04:02:21.163792",
+    "severity": "High",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-26",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.41,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0086",
+    "timestamp": "2025-12-17T11:02:21.163796",
+    "severity": "Medium",
+    "description": "Potential malware execution detected",
+    "entity": "user962@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.9,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0087",
+    "timestamp": "2025-12-17T09:29:21.163800",
+    "severity": "Medium",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "user965@contoso.com",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.82,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0088",
+    "timestamp": "2025-12-17T11:58:21.163805",
+    "severity": "Low",
+    "description": "Lateral movement indicators",
+    "entity": "device-2",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.93,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0089",
+    "timestamp": "2025-12-17T18:41:21.163809",
+    "severity": "Low",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "user893@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.57,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0090",
+    "timestamp": "2025-12-17T09:18:21.163813",
+    "severity": "High",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "device-20",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.33,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0091",
+    "timestamp": "2025-12-17T21:50:21.163817",
+    "severity": "Low",
+    "description": "Potential malware execution detected",
+    "entity": "user651@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.46,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0092",
+    "timestamp": "2025-12-18T03:43:21.163821",
+    "severity": "Critical",
+    "description": "Brute force attempt on account",
+    "entity": "device-3",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.91,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0093",
+    "timestamp": "2025-12-17T10:47:21.163826",
+    "severity": "Low",
+    "description": "Suspicious login from unfamiliar location",
+    "entity": "device-9",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.72,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0094",
+    "timestamp": "2025-12-17T16:32:21.163832",
+    "severity": "Low",
+    "description": "Benign software update (known false positive)",
+    "entity": "user734@contoso.com",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.68,
+    "historical_false_positive": true
+  },
+  {
+    "id": "alert-0095",
+    "timestamp": "2025-12-17T22:47:21.163836",
+    "severity": "High",
+    "description": "Potential malware execution detected",
+    "entity": "device-31",
+    "source": "Microsoft Sentinel",
+    "confidence": 0.86,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0096",
+    "timestamp": "2025-12-18T05:06:21.163840",
+    "severity": "High",
+    "description": "Potential malware execution detected",
+    "entity": "user860@contoso.com",
+    "source": "Azure AD Identity Protection",
+    "confidence": 0.68,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0097",
+    "timestamp": "2025-12-17T07:43:21.163844",
+    "severity": "Low",
+    "description": "Benign software update (known false positive)",
+    "entity": "user494@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.61,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0098",
+    "timestamp": "2025-12-18T06:27:21.163848",
+    "severity": "Medium",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "device-14",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.84,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0099",
+    "timestamp": "2025-12-17T08:00:21.163853",
+    "severity": "Critical",
+    "description": "Phishing email with malicious link clicked",
+    "entity": "user376@contoso.com",
+    "source": "Microsoft Defender for Cloud Apps",
+    "confidence": 0.42,
+    "historical_false_positive": false
+  },
+  {
+    "id": "alert-0100",
+    "timestamp": "2025-12-18T04:46:21.163857",
+    "severity": "Medium",
+    "description": "Unusual data exfiltration to external IP",
+    "entity": "device-46",
+    "source": "Microsoft Defender for Endpoint",
+    "confidence": 0.43,
+    "historical_false_positive": true
+  }
+]
